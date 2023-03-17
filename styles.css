@@ -1,0 +1,68 @@
+body{
+    background:black;
+    color:white;
+    margin:0;
+}
+
+header{
+    background:transparent;
+    display:flex;
+    justify-content:space-between;
+    height:5vh;
+}
+#navleft{
+    display:flex;
+    width:30%;
+    align-self:start;
+    align-items:center;
+    
+}
+nav{
+    display:flex;
+    width:30%;
+    justify-content:space-around;
+    
+}
+
+#titleScreen{
+    display:flex;
+    
+    height:95vh;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    
+    
+}
+
+
+#titleScreen h1{
+    width:70%;
+    background-color:rgb(191,133,0);
+    
+    height:30%;
+    
+    display:flex;
+    text-align:left;
+    align-items:end;
+    padding-right:2em;
+    justify-content: end;
+    position:relative;
+    bottom:20%;
+    z-index:1
+
+    
+
+}
+
+#titleScreen img{
+    height:50%; 
+    align-self:center;
+    position:relative;
+    left:-15%;
+    top:20%;
+    z-index:2;
+
+    
+
+}
