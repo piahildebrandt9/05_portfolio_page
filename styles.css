@@ -3,6 +3,7 @@
     src:url("./assets/CutiveMono-Regular.ttf");
 }
 
+
 img{
     width:100%;
 }
@@ -84,7 +85,7 @@ nav{
 #aboutMe{
     background-color:rgb(191,133,0);
     height:50vh;
-    position:relative;
+    /* position:relative; */
     
     
 }
@@ -95,7 +96,7 @@ nav{
     height:50%;
     margin-left:10%;
     font-size:larger;
-    position:absolute;
+    /* position:absolute; */
    
     
 }
