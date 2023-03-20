@@ -36,7 +36,7 @@ header{
 }
 nav{
     display:flex;
-    width:30%;
+    width:40%;
     justify-content:space-around;
     
 }
@@ -156,4 +156,35 @@ nav{
     font-size:x-large;
     margin:0;
     font-weight:bold;
+}
+
+#allProjects{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    
+
+}
+.project{
+    display:flex;
+    background-color:rgb(191,133,0);
+    width:80%;
+    /* position:relative; */
+    height:50vh;
+    justify-content:space-evenly;
+    align-items:center;
+    
+    
+}
+
+.project:nth-of-type(even){
+    flex-direction:row-reverse;
+}
+.projectText{
+    margin-left:5%;
+}
+.project img{
+    height:50%;
+    width:auto;
+    margin:5%;
 }
